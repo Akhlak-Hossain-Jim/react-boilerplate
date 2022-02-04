@@ -1,6 +1,39 @@
-# Getting Started with Create React App
+# About the boilerplate
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). And customized by [Akhlak Hossain Jim](https://ah-jim-seed.web.app).
+
+## Added libraries
+
+1. React-router-dom (Routing)
+2. react-icons (icons)
+3. styled-components (styling)
+4. react-helmet (head tags/SEO purpose)
+
+## Folder Structure
+
+in `public` folder:
+
+- `favicon.ico` favicon (replace it with your brand logo)
+- `index.html` basic HTML code (please change the `<title>` , `<meta name="description" content="Web site created using create-react-app"/>`, basic meta tag contents)
+- `assets` all assets(image, audio, font, video, pdf .. all here)
+    - `images` for image (try to use `.webp` format for image optimization)
+    - `fonts` for fonts
+    - `videos` for video file
+    - `pdfs` for pdf documents
+
+in `src` folder:
+
+- `components` (for all components)
+    - `Head.js` (react-helmet)
+- `layout` (for all layout components)
+    - `Header.js` header component
+    - `Footer.js` footer component
+- `pages` (for creating page components)
+    - `Home.js` index page
+    - `NotFound.js` 404page
+- `styles` (for all style files)
+    - `index.css` (basic styles)
+- `App.js` (router defined here)
 
 ## Available Scripts
 
