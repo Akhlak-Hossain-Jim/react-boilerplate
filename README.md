@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). And customized by [Akhlak Hossain Jim](https://ah-jim-seed.web.app).
 
+## Generate this project to your local machine
+
+run the following commands
+
+- `git clone https://github.com/Akhlak-Hossain-Jim/react-boilarplete.git`
+- `cd .\react-boilerplate\`
+- `npm install` or `yarn add`
+
 ## Added libraries
 
 1. React-router-dom (Routing)
